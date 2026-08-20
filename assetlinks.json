@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.klimateibarat",
+      "sha256_cert_fingerprints": [
+        "89:78:E3:16:3F:55:44:00:3E:7B:C9:2F:47:D0:29:F5:D4:E6:32:B5:60:BD:40:4B:0C:16:57:00:C1:A3:33:85"
+      ]
+    }
+  }
+]

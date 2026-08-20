@@ -1,0 +1,58 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Disallow crawling of admin areas (if any)
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /administrator/
+Disallow: /cpanel/
+Disallow: /phpmyadmin/
+
+# Disallow crawling of temporary files
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /logs/
+
+# Disallow crawling of private files
+Disallow: /private/
+Disallow: /includes/
+Disallow: /config/
+
+# Allow crawling of important directories
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /img/
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://klimateibarat.com/sitemap.xml
+
+# Crawl delay (optional - be respectful to server resources)
+Crawl-delay: 1
+
+# Additional sitemaps for different content types
+Sitemap: https://klimateibarat.com/sitemap.xml
+
+# Host directive (specify the preferred domain)
+Host: https://klimateibarat.com 
